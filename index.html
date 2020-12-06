@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japanese Noodle</title>
+    <meta name="description" content="Korean Noodle Store" />
+    <meta name="autor" content="Jeunghak Ham" />
+    <link rel="icon" type="image/png" href="images/storefavicon.png" />
+    <script src="https://kit.fontawesome.com/6f6f082ac5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="navbar__logo">
+        <i class="fas fa-apple-alt"></i>
+        <a href="#">Japanese noodle store</a>
+      </div>
+
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item" data-link="#home">Home</li>
+        <li class="navbar__menu__item" data-link="#about">About</li>
+        <li class="navbar__menu__item" data-link="#noodles">Noodles</li>
+        <li class="navbar__menu__item active" data-link="#cupnoodle">Cup Noodles</li>
+        <li class="navbar__menu__item" data-link="#reviews">Review</li>
+        <li class="navbar__menu__item" data-link="#contact">Contact</li>
+      </ul>
+
+      <!-- Toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home__container">
+        <img src="images/joy.jpg" alt="Jeunghak's dog" class="home__avatar" />
+
+        <h1 class="home__title">The Best <br />Japanese Noodle Store</h1>
+        <h2 class="home__description">We have every noodle you want to eat!!</h2>
+        <button class="home__contact">Contact Me</button>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section__container">
+      <h1>Best Noodles</h1>
+      <p>Top 3 selling noodles</p>
+
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fas fa-fighter-jet"></i>
+          </div>
+
+          <h2 class="major__title">Fast Delivery</h2>
+
+          <div class="major__description">
+            Average shipping date is 0~2 days
+            <br />
+            Worldwide
+          </div>
+        </div>
+
+        <div class="major">
+          <div class="major__icon">
+            <i class="fas fa-stopwatch-20"></i>
+          </div>
+
+          <h2 class="major__title">We are Fast</h2>
+
+          <p class="major__description">
+            After your order, we will send your noodle
+            <br />
+            In 20mins!!
+          </p>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="far fa-grin-beam"></i>
+          </div>
+
+          <h2 class="major__title">Free Noodles</h2>
+
+          <p class="major__description">
+            If you order 5 noodles
+            <br />
+            We give you one free noodle!!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Noodle -->
+    <section id="noodles" class="section">
+      <div class="section__container">
+        <h1>Japanese Noodles</h1>
+        <h2>Best Selling Noodles</h2>
+        <p>
+          our custmoers best pick!!
+        </p>
+        <div class="noodleset">
+          <div class="noodleset__left">
+            <h3 class="noodleset__title">Bestseller</h3>
+            <div class="noodle">
+              <div class="noodle__description">
+                <span>Shoyu</span>
+                <span>45%</span>
+              </div>
+              <div class="noodle__bar">
+                <div class="noodle__value" style="width: 60%"></div>
+              </div>
+            </div>
+
+            <div class="noodle">
+              <div class="noodle__description">
+                <span>Miso</span>
+                <span>10%</span>
+              </div>
+              <div class="noodle__bar">
+                <div class="noodle__value" style="width: 10%"></div>
+              </div>
+            </div>
+
+            <div class="noodle">
+              <div class="noodle__description">
+                <span>Shio</span>
+                <span>9%</span>
+              </div>
+              <div class="noodle__bar">
+                <div class="noodle__value" style="width: 9%"></div>
+              </div>
+            </div>
+
+            <div class="noodle">
+              <div class="noodle__description">
+                <span>Tantan</span>
+                <span>15%</span>
+              </div>
+              <div class="noodle__bar">
+                <div class="noodle__value" style="width: 15%"></div>
+              </div>
+            </div>
+
+            <div class="noodle">
+              <div class="noodle__description">
+                <span>Tonkotsu</span>
+                <span>5%</span>
+              </div>
+              <div class="noodle__bar">
+                <div class="noodle__value" style="width: 5%"></div>
+              </div>
+            </div>
+
+            <div class="noodle">
+              <div class="noodle__description">
+                <span>Tokai</span>
+                <span>16%</span>
+              </div>
+              <div class="noodle__bar">
+                <div class="noodle__value" style="width: 16%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="noodleset__right">
+            <div class="soupNoodle">
+              <h3 class="noodleset__title">Soup Noodles</h3>
+              <ul class="soupNoodle__list">
+                <li><span>Tokai</span></li>
+                <li><span>Miso</span></li>
+                <li><span>Shio</span></li>
+                <li><span>Tantan</span></li>
+                <li><span>Tonkotsu</span></li>
+              </ul>
+            </div>
+            <div class="stirFriedNoodle">
+              <h3 class="noodleset__title">Stir-Fried Noodles</h3>
+              <ul class="stirFriedNoodl__list">
+                <li><span>Tokai</span></li>
+                <li><span>Moncton King</span></li>
+                <li><span>Suki</span></li>
+                <li><span>Cheese</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cupnoodle -->
+    <section id="cupnoodle" class="section">
+      <div class="section__container">
+        <h1>Cupnoodles</h1>
+        <h3>Best cupnoodles in our store</h3>
+        <div class="cupnoodle__categories">
+          <button class="category__btn selected" data-filter="*">
+            All<span class="category__count"></span>
+          </button>
+          <button class="category__btn" data-filter="general">
+            General<span class="category__count"></span>
+          </button>
+          <button class="category__btn" data-filter="special">
+            Special<span class="category__count"></span>
+          </button>
+        </div>
+
+        <div class="cupnoodle__kinds"></div>
+      </div>
+    </section>
+
+    <!-- Review -->
+    <section id="reviews" class="section">
+      <div class="section__container">
+        <h1>Reviews</h1>
+        <h3>See what they say about our store</h3>
+        <div class="reviews">
+          <div class="review">
+            <img src="images/review/face.jpg" alt="People" class="review__avatar" />
+
+            <div class="review__speech-bubble">
+              <p>
+                I think it's the best cup noodle store. The delivery is really fast and I think it's
+                really good to give one free noodle if I buy 5 noodles. It is easy to choose because
+                there are only the most popular ramen in Korea. I'm going to use it the next time I
+                live.
+              </p>
+              <p class="name"><a href="">Joy</a>/Toronto</p>
+            </div>
+          </div>
+
+          <div class="review">
+            <div class="review__speech-bubble">
+              <p>
+                It's so convenient. The advantage of this store is delivery. Shipping is free and
+                fast. Koreans say they like fast things, but I think it's a big advantage to carry
+                on the spirit and deliver them quickly overseas. The price is good, and I think it's
+                a big advantage to give a free noodle. I'm going to use it again.
+              </p>
+              <p class="name"><a href="">Jane</a>/Toronto</p>
+            </div>
+            <img src="images/review/face.jpg" alt="People" class="review__avatar" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">If you have any question, contact me</h1>
+      <h2 class="contact__email">thisway8788@gmail.com</h2>
+      <div class="contact__links">
+        <a href="https://github.com/thisway8788" target="_blank">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://github.com/thisway8788" target="_blank">
+          <i class="fab fa-twitter-square"></i>
+        </a>
+        <a href="https://github.com/thisway8788" target="_blank">
+          <i class="fab fa-github-square"></i>
+        </a>
+        <a href="#" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p class="contact__rights">2020 JeungHak --All rights reserved</p>
+    </section>
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+  </body>
+</html>
